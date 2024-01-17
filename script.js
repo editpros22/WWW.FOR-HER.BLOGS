@@ -5,7 +5,7 @@ function checkPassword() {
     if (password === "just wanna scream") {
         window.location.href = "nextindex.html";
     } else {
-        alert("Incorrect password. Please try again.");
+        alert("sorry,aap nhi dekh sakte");
     }
 }
 
