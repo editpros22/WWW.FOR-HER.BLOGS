@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Protected Website</title>
+    <style>
+        body{
+            background: url(alone.jpg);
+            background-size: contain;
+            background-size: 150% 800%;
+            background-repeat: no-repeat;
+            text-align: center;
+            color: aliceblue;
+
+            
+    
+        }
+        #but{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3 >Hii, in there is my "ghum ki dastaan" enter the password to enter...</h3>
+    <form id="loginForm">
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <br>
+        <button id="but" type="button" onclick="checkPassword()">Login</button>
+    </form>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
